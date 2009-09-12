@@ -4,5 +4,5 @@ When /^I search for ['"](.*)['"]$/ do |query|
 end
 
 Then /^I should see search results about (.*)$/ do |term|
-  response.body.should include(term)
+  response_body.should include(term)
 end
