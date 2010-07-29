@@ -4,6 +4,5 @@ Feature: Google Search
   I want to search for information on Google
   
   Scenario: Learn about Iran
-    Given I am on google.com
-    When I search for "Iran"
+    When I Google for "Iran"
     Then I should see search results about Iran
